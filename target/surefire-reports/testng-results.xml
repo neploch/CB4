@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-09T23:18:23 IST" name="All Test Suite" finished-at="2022-02-09T23:19:11 IST" duration-ms="47640">
+    <groups>
+      <group name="Sanity">
+        <method signature="Sanity.applyForAutomationEngineerPosition()[pri:2, instance:tests.Sanity@34158c08]" name="applyForAutomationEngineerPosition" class="tests.Sanity"/>
+        <method signature="Sanity.caseStudies()[pri:1, instance:tests.Sanity@34158c08]" name="caseStudies" class="tests.Sanity"/>
+      </group> <!-- Sanity -->
+    </groups>
+    <test started-at="2022-02-09T23:18:23 IST" name="Chrome Sanity Tests" finished-at="2022-02-09T23:19:11 IST" duration-ms="47640">
+      <class name="tests.Sanity">
+        <test-method is-config="true" signature="setup(java.lang.String, org.testng.ITestContext)[pri:0, instance:tests.Sanity@34158c08]" started-at="2022-02-09T23:18:24 IST" name="setup" finished-at="2022-02-09T23:18:27 IST" duration-ms="3211" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@4248ed58]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="caseStudies()[pri:1, instance:tests.Sanity@34158c08]" started-at="2022-02-09T23:18:27 IST" name="caseStudies" description="Open some case study, play the video" finished-at="2022-02-09T23:18:51 IST" duration-ms="23670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- caseStudies -->
+        <test-method is-config="true" signature="closeMethod()[pri:0, instance:tests.Sanity@34158c08]" started-at="2022-02-09T23:18:51 IST" name="closeMethod" finished-at="2022-02-09T23:18:52 IST" duration-ms="928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeMethod -->
+        <test-method is-config="true" signature="setup(java.lang.String, org.testng.ITestContext)[pri:0, instance:tests.Sanity@34158c08]" started-at="2022-02-09T23:18:52 IST" name="setup" finished-at="2022-02-09T23:18:54 IST" duration-ms="1794" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@4248ed58]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="applyForAutomationEngineerPosition()[pri:2, instance:tests.Sanity@34158c08]" started-at="2022-02-09T23:18:54 IST" name="applyForAutomationEngineerPosition" description="Navigate to Automation Engineer vacancy page, almost apply for that position" finished-at="2022-02-09T23:19:10 IST" duration-ms="16515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applyForAutomationEngineerPosition -->
+        <test-method is-config="true" signature="closeMethod()[pri:0, instance:tests.Sanity@34158c08]" started-at="2022-02-09T23:19:10 IST" name="closeMethod" finished-at="2022-02-09T23:19:11 IST" duration-ms="872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeMethod -->
+      </class> <!-- tests.Sanity -->
+    </test> <!-- Chrome Sanity Tests -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
